@@ -1,0 +1,52 @@
+@media (max-width: 848px){
+	.box{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 767px){
+	.sidebar{
+		display: none;
+	}
+
+	.map {
+		display: none;
+	}
+
+	.services{
+		.sidebar{
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 675px){
+	.brand ul{
+		display: none;
+	}
+
+	.brand button{
+		display: flex;
+		border-color: #81B1DF;
+	}
+}
+
+@media (max-width: 565px){
+	.showcase p{
+		display: none;
+	}
+
+	.showcase button{
+		display: inline-block;
+		margin: 20px;
+	}
+}
+
+@media (max-width: 340px){
+	.showcase h1{
+		font-size: 40px;
+	}
+}

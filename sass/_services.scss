@@ -1,0 +1,61 @@
+.services .contenedor{
+	display: flex;
+	flex-direction: row;
+}
+
+.services{
+	ul{
+		padding: 30px;
+		h3{
+			font-size: 30px;
+			font-family: $font-principal;
+			text-align: center;
+		}
+
+		p{
+			font-size: 20px;
+			font-family: $font-secun;
+			margin: 10px;
+		}
+	}
+
+	.sidebar{
+		padding: 20px;
+		background-color: $color-fondo;
+		margin-top: 20px;
+		color: $color-basic;
+		height: 180px;
+		display: flex;
+		flex-direction: column;
+
+		input{
+			width: 200px;
+			margin: 5px;
+		}
+
+		textarea{
+			width: 200px;
+			margin: 5px;
+			height: 50px;
+		}
+
+		button{
+			font-family: $font-principal;
+			background: $color-basic;
+			border-color: $color-basic;
+			margin: 5px;
+
+			&:hover{
+				background: $color-det;
+				border-color: $color-det;
+				color: $color-basic;
+			}
+		}
+
+		h3{
+			font-family: $font-principal;
+			font-size: 15px;
+			margin-bottom: 10px;
+		}
+	}
+}

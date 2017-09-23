@@ -1,0 +1,16 @@
+@import "variables";
+@import "header";
+@import "showcase";
+@import "newsletter";
+@import "cajas";
+@import "footer";
+
+@import "main";
+@import "services";
+@import "media";
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}

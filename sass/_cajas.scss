@@ -1,0 +1,26 @@
+.cajas{
+	padding: 30px;
+  background: $color-basic;
+
+  	.box{
+  		display: flex;
+  		flex-direction: row;
+  		justify-content: space-around;
+  		align-items: center;
+  		text-align: center;
+
+  		article{
+  			padding: 10px;
+  		}
+
+  		h3{
+  			margin: 5px;
+  			font-family: $font-principal;
+  		}
+
+  		p{
+  			max-width: 200px;
+  			font-family: $font-secun;
+  		}
+  	}
+}

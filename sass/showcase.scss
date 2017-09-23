@@ -1,0 +1,29 @@
+.showcase{
+	display: flex;
+	background: url("../img/showcase.jpg") no-repeat 0 -400px;
+	min-height: 400px;
+	text-align: center;
+
+	h1{
+		font-family: $font-principal;
+		font-size: 50px;
+		color: $color-basic;
+	}
+
+	span{
+		color: $color-det
+	}
+
+	p{
+		font-family: $font-principal;
+		font-size: 17px;
+		color: $color-basic;
+	}
+
+	button{
+		background: none;
+		border-color: $color-det;
+		font-size: 30px;
+		display: none;
+	}
+}

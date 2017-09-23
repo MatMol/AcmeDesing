@@ -1,0 +1,42 @@
+.main .contenedor{
+	display: flex;
+	flex-direction: row;
+}
+
+.main{
+	padding: 10px;
+	.main-col{
+		h1{
+			font-size: 30px;
+			font-family: $font-principal;
+			text-align: center;
+		}
+
+		p{
+			font-size: 20px;
+			font-family: $font-secun;
+			margin: 20px;
+		}
+	}
+
+	.sidebar{
+		padding: 15px;
+		background-color: $color-fondo;
+		margin-top: 20px;
+		color: $color-basic;
+		height: 100px;
+
+		h3{
+			font-family: $font-principal;
+			margin-bottom: 4px;
+		}
+
+		p{
+			font-family: $font-secun;
+		}
+	}
+}
+
+.map .contenedor{
+	display: flex;
+}
